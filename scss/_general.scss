@@ -4,7 +4,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Arial",  sans-serif;
+    font-family: "Arial", 'Oswald', 'Questrial', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Oswald';
+}
+
+p{
+    font-family: 'Questrial';
 }
 
 img{
@@ -13,4 +21,23 @@ img{
 
 h1,h2,h3,h4,h5,h6 p{
     margin: 0;
+}
+
+ul, ol, li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text__color{
+    color: #FFD369;
+    
+}
+
+.horizontal__line{
+    opacity: 0.1;
+    border: 1px solid #FFFFFF;
+    transform: rotate(-0.06deg);
 }
