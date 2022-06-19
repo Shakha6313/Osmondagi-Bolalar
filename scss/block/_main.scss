@@ -11,7 +11,7 @@
 
     &__content-person{
         position: absolute;
-        top: 7.5%;
+        top: 1.8%;
         left: 60%;
     }
 
@@ -56,19 +56,14 @@
     }
 
     &__content-dots {
-        display: flex;
+        position: relative;
         
     }
 
-    &__content-dots-list {
-        display: block;
-        width: 8px;
-        height: 8px;
-        background-color: #FFFFFF;
-        border-radius: 50%;
-        margin: 5px;
-        padding: 10px;
-        border:  2px solid $yellow;
+    &__content-dots-img {
+        position: absolute;
+        top: 0;
+        left: 45%;
     }
 }
 
@@ -216,4 +211,498 @@
         color: #000000;
         margin-bottom: 35px;
     }
+
+}
+
+.third {
+
+    &__section-card {
+        margin-bottom: 20px;
+        padding-top: 90px;
+    }
+
+    &__section-card-list {
+        display: flex;
+        // flex-wrap: wrap;
+        gap: 30px;
+        margin-bottom: 142px;
+
+        &:last-child{
+            margin-bottom: 150px;
+        }
+    }
+
+    &__section-card-item {
+        background: #FFFFFF;
+        box-shadow: 0px 20px 50px rgba(34, 40, 49, 0.05);
+        width: 309px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        &::before{
+            content: url(./../../img/temur.png);
+            width: 178px;
+            height: 178px;
+            background-position: center;
+            background-color: #E5E5E5;
+            padding: 7px;
+            border-radius: 50%;
+            position: absolute;
+            top: -30%;
+            left: 21.5%;
+        }
+    }
+}
+.card {
+
+    &__heading {
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 4px;
+        padding-top: 134px;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #787878;
+        margin-bottom: 44px;
+    }
+
+    &__social-link {
+    }
+
+    &__social-img {
+        padding-bottom: 40px;
+    }
+}
+
+// ---------------------------------------------------
+
+
+.fourth {
+
+    &__section {
+    }
+
+    &__section-info {
+        margin-bottom: 35px;
+    }
+
+    &__section-info-text {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 100%;
+        color: #000000;
+        margin-bottom: 4px;
+    }
+
+    &__section-info-heading {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 100%;
+        color: #000000;
+    }
+
+    &__section-social {
+        background-color: #FFFFFF;
+        margin-bottom: 100px;
+    }
+
+    &__section-social-list {
+        display: flex;
+        align-items: center;
+        padding: {
+            top: 50px;
+            bottom: 50px;
+            left: 108px;
+        }
+        gap: 194px;
+    }
+    
+    &__section-social-item {
+    }
+    
+    &__section-social-link {
+        display: flex;
+        align-items: center;
+    }
+
+    &__section-social-img {
+        margin-right: 15px;
+    }
+
+    &__section-social-info {
+    }
+
+    &__section-social-heading {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #242424;
+    }
+
+    &__section-social-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #242424;
+        opacity: 0.7;
+    }
+}
+
+// ---------------------------------------------------
+
+.fifth {
+
+    &__section {
+    }
+
+    &__section-podcast {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 46px;
+    }
+}
+
+.podcast {
+
+    &__wrapper {
+    }
+
+    &__wrapper-text {
+    }
+
+    &__wrapper-heading {
+    }
+
+    &__btn {
+        padding: 16px 57px;
+        border: 2px solid #222831;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #222831;
+
+        &:hover{
+            color: $yellow;
+            border: 2px solid $yellow;
+            background: #222831;
+        }
+    }
+}
+
+.fifth {
+
+    &__section-left {
+        max-width: 648px;
+        width: 100%;
+        margin-right: 10px;
+    }
+
+    &__section-left-link {
+        display: block;
+        position: relative;
+        
+
+        &:hover::before{
+            content: url(./../../img/mehmon1.svg);
+            position: absolute;
+            transition: all 0.5s ease;
+        }
+    }
+    
+    &__section-left-img {
+        
+    }
+
+    &__section-left-text1 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #222831;
+        margin-bottom: 13px;
+        padding-top: 32px;
+    }
+
+    &__section-left-text2 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        opacity: 0.6;
+        margin-bottom: 47px;
+    }
+
+    &__section-wrapper-text {
+        display: flex;
+    }
+}
+.wrapper {
+
+    &__left {
+        margin-right: 60px;
+    }
+
+    &__left-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        opacity: 0.6;
+        margin-bottom: 4px;
+    }
+
+    &__left-heading {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+    }
+
+    &__right {
+    }
+
+    &__right-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        opacity: 0.6;
+        margin-bottom: 4px;
+    }
+
+    &__right-heading {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+    }
+}
+
+.fifth {
+
+    &__section-wrap{
+        display: flex;
+
+    }
+
+    &__section-right {
+    }
+
+    &__section-right-list {
+        max-width: 309px;
+        width: 100%;
+        display: flex;
+        gap: 10px;
+
+        &:last-child{
+            margin-bottom: 140px;
+        }
+    }
+
+    &__section-right-item {
+    }
+
+    &__section-right-link {
+        display: block;
+        position: relative;
+        
+
+        &:hover::before{
+            content: url(./../../img/uberdegisi.png);
+            position: absolute;
+            transition: all 0.5s ease;
+        }
+    }
+
+    &__section-right-img {
+    }
+
+    &__section-right-text {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #222831;
+        padding-top: 22px;
+        margin-bottom: 56px;
+    }
+}
+
+
+// ------------------------------------------------------
+
+
+.six {
+    
+    &__content {
+        padding-top: 150px;
+        position: relative;
+    }
+}
+
+.round__img{
+    position: absolute;
+    top: 0;
+    left: 810px;
+    z-index: -1;
+}
+
+.dress {
+
+    &_card-heading {
+        font-weight: 800;
+        font-size: 34px;
+        line-height: 41px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+
+    &_card-btn {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        
+        color: #222831;
+        padding: 19px 65px;
+        background: #FFD369;
+        box-shadow: 0px 4px 54px rgba(255, 211, 105, 0.25);
+    }
+
+    &__welcome {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 110%;
+        color: #000000;
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        color: #000000;
+        margin-bottom: 62px;
+    }
+
+    &__card-list {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 60px;
+    }
+
+    &__card-item {
+        background-image: url(./../../img/futbolka.png);
+        background-repeat: no-repeat;
+        width: 422px;
+        height: 501px;
+        padding: {
+            top: 314px;
+            left: 40px;
+            bottom: 35px;
+        }
+    }
+
+    &__card-btm{
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 110%;
+        color: #000000;
+        margin-bottom: 30px;
+    }
+}
+
+
+// ----------------------------------------------------------
+
+.seventh {
+
+    &__section {
+        background: #fff;
+        padding: {
+            top: 45px;
+            left: 50px;
+            right: 108px;
+        }
+        margin-bottom: 190px;
+    }
+
+    &__section-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__section-info {
+    }
+
+    &__section-info-heading {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 27px;
+        color: #000000;
+        margin-bottom: 27px;
+    }
+
+    &__section-info-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+        margin-bottom: 17.5px;
+
+        &::before{
+            content: url(./../../img/location.svg);
+            margin-right: 10px;
+        }
+    }
+}
+
+.info {
+
+    &__wrapper {
+        margin-bottom: 45px;
+        padding-right: 6px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.call {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+
+    &::before{
+        content: url(./../../img/call.svg);
+        margin-right: 10px;
+    }
+
+}
+.map {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #2F48BE;
+    
+}
+
+.section__wrapper-line{
+    border: 1px solid #DCDCDC;
+    transform: rotate(90deg);
+    height: 84px;
+    width: 1px;
+    top: 0;
+    left: 0;
 }
