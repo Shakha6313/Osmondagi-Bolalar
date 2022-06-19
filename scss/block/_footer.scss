@@ -1,0 +1,27 @@
+.footer {
+
+    background: #222831;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+    &__link {
+    }
+
+    &__logo {
+    }
+
+    &__text {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 110%;
+        color: #FFFFFF;
+        opacity: 0.8;
+    }
+}
+

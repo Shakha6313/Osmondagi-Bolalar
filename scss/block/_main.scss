@@ -706,3 +706,146 @@
     top: 0;
     left: 0;
 }
+
+// --------------------------------------------------------------
+
+.eighth {
+
+    &__section {
+        background-color: #FFFFFF;
+        padding: {
+            top: 88px;
+            left: 120px;
+            bottom: 125px;
+        }
+        margin-bottom: 180px;
+        position: relative;
+    }
+
+    &__section-referal {
+    }
+
+    &__inner-container{
+        
+        &::before{
+            content: url(./../../img/referal.png);
+            position: absolute;
+            top: -15%;
+            left: 55%;
+        }
+
+    }
+}
+
+.referal {
+
+    &__text {
+        font-weight: 300;
+        font-size: 54px;
+        line-height: 60px;
+        color: #222831;
+        width: 445px;
+    }
+
+    &__call {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        margin-bottom: 13px;
+    }
+
+    &__num {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #222831;
+        margin-bottom: 32px;
+
+        &::before{
+            content: url(./../../img/Calling.svg);
+            margin-right: 15px;
+        }
+    }
+
+    &__write {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #000000;
+        margin-bottom: 17px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+    }
+
+    &__item {
+    }
+
+    &__link1 {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        color: #222831;
+        border: 1px solid #222831;
+        padding-right: 17px;
+        align-items: center;
+        display: flex;
+
+        &::before{
+            content: url(./../../img/tg.svg);
+            padding-left: 13px;
+            padding-right: 10px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
+    }
+
+    &__link2 {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        color: #222831;
+        border: 1px solid #222831;
+        padding-right: 17px;
+        align-items: center;
+        display: flex;
+
+        &::before{
+            content: url(./../../img/fb.svg);
+            padding-left: 13px;
+            padding-right: 10px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
+    }
+
+    &__link3 {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        color: #222831;
+        border: 1px solid #222831;
+        padding-right: 17px;
+        align-items: center;
+        display: flex;
+
+        &::before{
+            content: url(./../../img/ig.png);
+            padding-left: 13px;
+            padding-right: 10px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
+    }
+}
+.text-bold {
+    font-weight: 800;
+    font-size: 54px;
+    line-height: 60px;
+    color: #222831;
+    margin-bottom: 40px;
+}

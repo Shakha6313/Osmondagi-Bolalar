@@ -1084,4 +1084,170 @@ a {
   top: 0;
   left: 0;
 }
+
+.eighth__section {
+  background-color: #FFFFFF;
+  padding-top: 88px;
+  padding-left: 120px;
+  padding-bottom: 125px;
+  margin-bottom: 180px;
+  position: relative;
+}
+
+.eighth__inner-container::before {
+  content: url(./../../img/referal.png);
+  position: absolute;
+  top: -15%;
+  left: 55%;
+}
+
+.referal__text {
+  font-weight: 300;
+  font-size: 54px;
+  line-height: 60px;
+  color: #222831;
+  width: 445px;
+}
+
+.referal__call {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 13px;
+}
+
+.referal__num {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #222831;
+  margin-bottom: 32px;
+}
+
+.referal__num::before {
+  content: url(./../../img/Calling.svg);
+  margin-right: 15px;
+}
+
+.referal__write {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-bottom: 17px;
+}
+
+.referal__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 500px;
+}
+
+.referal__link1 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #222831;
+  border: 1px solid #222831;
+  padding-right: 17px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.referal__link1::before {
+  content: url(./../../img/tg.svg);
+  padding-left: 13px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.referal__link2 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #222831;
+  border: 1px solid #222831;
+  padding-right: 17px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.referal__link2::before {
+  content: url(./../../img/fb.svg);
+  padding-left: 13px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.referal__link3 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #222831;
+  border: 1px solid #222831;
+  padding-right: 17px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.referal__link3::before {
+  content: url(./../../img/ig.png);
+  padding-left: 13px;
+  padding-right: 10px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.text-bold {
+  font-weight: 800;
+  font-size: 54px;
+  line-height: 60px;
+  color: #222831;
+  margin-bottom: 40px;
+}
+
+.footer {
+  background: #222831;
+}
+
+.footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.footer__text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 110%;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
 /*# sourceMappingURL=main.css.map */
