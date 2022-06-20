@@ -55,17 +55,80 @@
         opacity: 0.67;
     }
 
-    &__content-dots {
-        position: relative;
-        
-    }
-
     &__content-dots-img {
         position: absolute;
-        top: 0;
+        top: 85%;
         left: 45%;
     }
 }
+
+
+@media only screen and (max-width: 750px){
+    .first {
+
+    
+        &__content {
+            padding-top: 325px;
+        }
+    
+        &__content-person{
+            width: 278px;
+            height: 279px;
+            top: 33px;
+            left: 71px;
+        }
+    
+        &__content-info {
+            position: relative;
+        }
+    
+        &__content-heading {
+            font-family: 'Oswald';
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 30px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            min-width: 345px;
+            width: 100%;
+        }
+    
+        &__content-play-btn {
+            position: absolute;
+            left: 320px;
+        }
+    
+        &__content-play-img {
+            
+        }
+    
+        &__content-hero {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #FFD369;
+            
+        }
+    
+        &__content-hero-info {
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 14px;
+            color: #FFFFFF;
+            opacity: 0.67;
+        }
+    
+        &__content-dots-img {
+            transform: rotate(90deg);
+            top: 20%;
+            left: 0;
+        }
+    }
+}
+
 
 // -------------------------------------
 
@@ -143,6 +206,22 @@
         line-height: 63px;
         text-transform: uppercase;
         color: #222831;
+        position: relative;
+        
+
+        &::before{
+            content: "Biz Haqimizda";
+            position: absolute;
+            top: -10px;
+            left: -2px;
+            font-family: 'Oswald';
+            font-weight: 600;
+            font-size: 60px;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: #222831;
+            opacity: 0.1;
+        }
     }
 
     &__content-right-text {
