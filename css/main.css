@@ -674,7 +674,8 @@ a {
     margin-bottom: 100px;
   }
   .second__content > .container {
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 10px;
     display: flex;
     flex-direction: column;
   }
@@ -684,13 +685,14 @@ a {
 
   .left__info {
     background-image: url(./../../img/2nd-content-mobile.png);
+    background-repeat: no-repeat;
     width: 375px;
     height: 300px;
     display: flex;
     position: relative;
   }
   .left__info::before {
-    content: url(./../../img/yt-chanel-mobile.png);
+    content: url(./../../img/yt-channel-mobile.svg);
     position: absolute;
     top: 80%;
     left: 7%;
