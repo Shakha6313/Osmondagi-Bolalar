@@ -522,6 +522,7 @@ a {
 @media only screen and (max-width: 750px) {
   .first__content {
     padding-top: 325px;
+    padding-bottom: 60px;
   }
   .first__content-person {
     width: 278px;
@@ -545,7 +546,7 @@ a {
   }
   .first__content-play-btn {
     position: absolute;
-    left: 320px;
+    left: 300px;
   }
   .first__content-hero {
     font-weight: 700;
@@ -668,6 +669,97 @@ a {
   border: 2px solid #FFD369;
 }
 
+@media only screen and (max-width: 750px) {
+  .second__content {
+    margin-bottom: 100px;
+  }
+  .second__content > .container {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .second__content-left {
+    margin-right: 51px;
+  }
+
+  .left__info {
+    background-image: url(./../../img/2nd-content-mobile.png);
+    width: 375px;
+    height: 300px;
+    display: flex;
+    position: relative;
+  }
+  .left__info::before {
+    content: url(./../../img/yt-chanel-mobile.png);
+    position: absolute;
+    top: 80%;
+    left: 7%;
+  }
+  .left__info-link {
+    display: none;
+    position: absolute;
+    top: 68%;
+    left: 8%;
+  }
+  .left__list {
+    position: absolute;
+    top: 20%;
+    left: 62%;
+  }
+  .left__item {
+    margin-bottom: 45px;
+  }
+
+  .list__heading {
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 2px;
+  }
+  .list__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-bottom: 2px;
+  }
+
+  .second__content-right {
+    position: relative;
+  }
+  .second__content-right-heading {
+    position: absolute;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #222831;
+    top: -350px;
+    left: 17px;
+    width: 300px;
+  }
+  .second__content-right-heading::before {
+    content: "Biz Haqimizda";
+    font-family: "Oswald";
+    font-weight: 800;
+    letter-spacing: 0.01em;
+    font-size: 40px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #222831;
+    opacity: 0.1;
+    top: -16px;
+    left: -20px;
+  }
+  .second__content-right-btn:hover {
+    color: #FFD369;
+    background-color: #222831;
+    border: 2px solid #FFD369;
+  }
+}
 .bg__team-text {
   font-weight: 300;
   font-size: 24px;

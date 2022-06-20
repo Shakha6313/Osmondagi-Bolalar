@@ -69,6 +69,7 @@
     
         &__content {
             padding-top: 325px;
+            padding-bottom: 60px;
         }
     
         &__content-person{
@@ -96,7 +97,7 @@
     
         &__content-play-btn {
             position: absolute;
-            left: 320px;
+            left: 300px;
         }
     
         &__content-play-img {
@@ -260,6 +261,135 @@
     }
 }
 
+@media only screen and (max-width: 750px){
+
+    .second {
+
+        &__content{
+            margin-bottom: 100px;
+            
+        }
+    
+        &__content > .container {
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        &__content-left {
+            margin-right: 51px;
+        }
+    }
+    
+    .left {
+    
+        &__info {
+            background-image: url(./../../img/2nd-content-mobile.png);
+            width: 375px;
+            height: 300px;
+            display: flex;
+            position: relative;
+
+            &::before{
+                content: url(./../../img/yt-chanel-mobile.png);
+                position: absolute;
+                top: 80%;
+                left: 7%;
+            }
+        }
+    
+        &__info-link {
+            display: none;
+            position: absolute;
+            top: 68%;
+            left: 8%;
+        }
+    
+        &__list {
+            position: absolute;
+            top: 20%;
+            left: 62%;
+        }
+    
+        &__item {
+            margin-bottom: 45px;
+        }
+    }
+    
+    .list {
+    
+        &__heading {
+            font-weight: 900;
+            font-size: 45px;
+            line-height: 54px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-bottom: 2px;
+        }
+    
+        &__text {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 16px;
+            color: #FFFFFF;
+            opacity: 0.6;
+            margin-bottom: 2px;
+        }
+    }
+    
+    .second {
+    
+        &__content-right {
+            position: relative;
+        }
+    
+        &__content-right-heading {
+            position: absolute;
+            font-weight: 800;
+            font-size: 24px;
+            line-height: 29px;
+            text-transform: uppercase;
+            color: #222831;
+            top: -350px;
+            left: 17px;
+            width: 300px;  
+            
+    
+            &::before{
+                content: "Biz Haqimizda";
+                font-family: "Oswald";
+                font-weight: 800;
+                letter-spacing: 0.01em;
+                font-size: 40px;
+                line-height: 48px;
+                text-transform: uppercase;
+                color: #222831;
+                opacity: 0.1;
+                top: -16px;
+                left: -20px;
+            }
+        }
+    
+        &__content-right-text {
+            
+        }
+        
+        &__content-right-arc {
+            
+        }
+    
+        &__content-right-btn {
+            
+    
+            &:hover{
+                color: $yellow;
+                background-color: #222831;
+                border: 2px solid $yellow;
+            }
+        }
+    }
+
+}
 
 // ------------------------------------------------
 
