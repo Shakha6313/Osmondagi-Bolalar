@@ -373,15 +373,28 @@
         }
     
         &__content-right-text {
-            
+            margin-top: 22px;
+            margin-bottom: 15px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            color: #222831;
+            width: 345px;
         }
         
         &__content-right-arc {
-            
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            color: #000000;
+            opacity: 0.5;
+            width: 345px;
+            margin-bottom: 30px;
         }
     
         &__content-right-btn {
             
+            margin-left: 50px;
     
             &:hover{
                 color: $yellow;
